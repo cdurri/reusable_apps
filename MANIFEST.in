@@ -1,0 +1,9 @@
+include LICENSE
+include README.rst
+recursive-exclude reusable_blog *.pyc
+recursive-include blog/migrations *
+recursive-include blog/static *
+recursive-include blog/templates *
+recursive-include reusable_blog *.css
+recursive-include reusable_blog *.html
+recursive-include reusable_blog *.py
